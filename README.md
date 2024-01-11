@@ -12,6 +12,8 @@ The files required to run this software are:
 
 2. Barcode list file.
 
+Barcode list file was provided in barcode_coordinate.txt .
+
 Tissue image requirements:
 
 1. With reference frame；
@@ -21,7 +23,7 @@ Tissue image requirements:
 DynamicST-Assist software operation
 ---
 
-Detailed operation documents can be found in [here]
+Detailed operation documents can be found in DynamicSTAssistv1.0.0_operation_manual.pdf .
 
 The software includes five interfaces: LOAE IMAGE, SELECT POINTS, REGIST IMAGE, TISSUE DETECT, and EXPOSE JSON.
 
