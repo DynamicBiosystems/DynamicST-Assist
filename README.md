@@ -69,7 +69,7 @@ In this part, you can align DynaBlot image and microscope image.
   
 5. Click button ”NEXT” to Alignment image step.
 
-  <div align=center><img src='./images/LoadAlignmentImages.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/LoadAlignmentImages.png' width =80%, height=80%></div>
   
   
 #### Alignment image
@@ -80,7 +80,7 @@ In this part, you can align DynaBlot image and microscope image.
   
 3. Click button ”NEXT” to Auto refine step.
     
-  <div align=center><img src='./images/AlignmentImages.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/AlignmentImages.png' width =80%, height=80%></div>
   
   
 #### Auto refine
@@ -93,7 +93,7 @@ In this part, you can align DynaBlot image and microscope image.
       
 4. Click button ”NEXT” to Expose alignment result step.
 
-  <div align=center><img src='./images/Auto-Refine.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/Auto-Refine.png' width =80%, height=80%></div>
   
   
 #### Expose alignment result
@@ -102,7 +102,7 @@ In this part, you can align DynaBlot image and microscope image.
   
 2. In this step, microscope image after alignment will be saved to the path of the microscope image and named as “microscope image name_tissue_image.tif”.
 
-  <div align=center><img src='./images/ExposeAlignment.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/ExposeAlignment.png' width =80%, height=80%></div>
 
 ### Output：
   
@@ -129,7 +129,7 @@ In this part, you can adjust DynaBlot image and detect tissue area.
   
 4. Click button ”NEXT” to Select points step.
 
-  <div align=center><img src='./images/LoadFiducialImage.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/LoadFiducialImage.png' width =80%, height=80%></div>
   
 
 #### Select points
@@ -140,7 +140,7 @@ In this part, you can adjust DynaBlot image and detect tissue area.
   
 3. Click button ”NEXT” to Adjust image step.
 
-  <div align=center><img src='./images/SelectPoints.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/SelectPoints.png' width =80%, height=80%></div>
   
 
 #### Adjust image
@@ -155,7 +155,7 @@ In this part, you can adjust DynaBlot image and detect tissue area.
   
 5. Click button ”NEXT” to Detect tissue area step.
   
-  <div align=center><img src='./images/AdjustImage.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/AdjustImage.png' width =80%, height=80%></div>
 
       
 #### Detect tissue area
@@ -182,7 +182,7 @@ In this part, you can adjust DynaBlot image and detect tissue area.
 
   <div align=center><img src='./images/ChooseTissueDetectionImage.png' width =30%, height=30%></div>
 
-  <div align=center><img src='./images/TissueDetection.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/TissueDetection.png' width =80%, height=80%></div>
     
 
 #### Expose json
@@ -193,7 +193,7 @@ In this part, you can adjust DynaBlot image and detect tissue area.
   
 3. The adjusted image will be saved in the same path of json file.If you have aligned DynaBlot image and microscope image, the adjusted DynaBlot image will be named “DynaBlot image name_dynaimage.tif”, else the adjusted image will be named “Image name_tissue_image.tif”.
 
-  <div align=center><img src='./images/ExposeAdjustResult.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/ExposeAdjustResult.png' width =80%, height=80%></div>
 
 ### Output:
 
