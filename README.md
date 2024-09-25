@@ -54,7 +54,7 @@ In this part, you have two choices.The operation process is as follows:
   <div align=center><img src='./images/start.png' width =60%, height=60%></div>
 
 
-## DynaBlot image-microscope image alignment
+## DynaBlot image - microscope image alignment
 
 In this part, you can align DynaBlot image and microscope image. 
 
