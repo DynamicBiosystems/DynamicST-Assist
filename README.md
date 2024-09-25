@@ -80,7 +80,7 @@ STEPS: Display the current step and completed steps.
 
 TOOLS: Alignment image after pin landmarks.
 
-1. Pin landmarks on the images by clicking the mouse.
+1. Pin landmarks on the images by clicking the mouse，the number of landmarks needs to be greater than 5 pairs.
   
 2. Click button “ALIGNMENTIMAGE” to alignment microscope according to landmarks.
   
