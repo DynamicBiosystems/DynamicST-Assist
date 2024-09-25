@@ -118,7 +118,7 @@ The image will be named as “microscope image name_tissue_image.tif” and save
 
 ## Manual alignment of DynaBlot image with fiducial frame
 
-In this part, you can adjust DynaBlot image and detect tissue area.
+In this part, you can adjust image with fiducial frame and detect tissue area.
 
 ### Operation process
 
