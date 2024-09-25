@@ -1,4 +1,4 @@
-DynamicST-Assist introduction
+DynamicST Assist introduction
 ---
 
 DynamicST Assist includes two functions: DynaBlot image and microscope image Alignment, fiducial alignment and tissue detection.
@@ -10,7 +10,7 @@ Fiducial alignment and tissue detection is used to adjust DynaBlot image and det
 In this function, DynaBlot image is required.
 
 
-DynamicST-Assist software operation
+DynamicST Assist software operation
 ---
 
 Detailed operation documents can be found in DynamicST_Assistv_1.1.6_Operation_Manual.pdf .
