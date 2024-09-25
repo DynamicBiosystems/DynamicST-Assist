@@ -43,7 +43,7 @@ And currently available operations will be displayed in TOOLS.
 
 During the operation, you can  zoom the image by scrolling the mouse wheel to, or drag the image by pressing the right mouse button.
 
-## Start software:
+## Start software
 
 In this part, you have two choices.The operation process is as follows:
 
@@ -54,13 +54,13 @@ In this part, you have two choices.The operation process is as follows:
   <div align=center><img src='./images/start.png' width =60%, height=60%></div>
 
 
-## DynaBlot image-microscope image alignment:
+## DynaBlot image-microscope image alignment
 
 In this part, you can align DynaBlot image and microscope image. 
 
-### Operation process:
+### Operation process
 
-#### Load images：
+#### Load images
 
 1. Click button “LOADIMAGE” on the left to load DynaBlot image, the DynaBlot image will be flipped horizontally.
   
@@ -107,7 +107,7 @@ In this part, you can align DynaBlot image and microscope image.
 
   <div align=center><img src='./images/ExposeAlignment.png' width =80%, height=80%></div>
 
-### Output：
+### Output
   
 The output of this step is the image of the microscope image after alignbment. 
     
@@ -116,11 +116,11 @@ The image will be named as “microscope image name_tissue_image.tif” and save
 <div align=center><img src='./images/AlignmentResult.png' width =30%, height=30%></div>
   
 
-## Manual alignment of DynaBlot image with fiducial frame:
+## Manual alignment of DynaBlot image with fiducial frame
 
 In this part, you can adjust DynaBlot image and detect tissue area.
 
-### Operation process:
+### Operation process
 
 #### Load image
 
@@ -198,7 +198,7 @@ In this part, you can adjust DynaBlot image and detect tissue area.
 
   <div align=center><img src='./images/ExposeAdjustResult.png' width =80%, height=80%></div>
 
-### Output:
+### Output
 
 The json file willed be named “Image name_alignment.json” and saved in path selected.
 
