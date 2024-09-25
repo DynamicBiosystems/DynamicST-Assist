@@ -22,7 +22,7 @@ Introduction
 Installation
 ---
 
-<div align=center><img src='./images/setup.png' width =60%, height=60%></div>
+<div align=center><img src='./images/setup.png' width =40%, height=40%></div>
 
 Double click the exe shown in figure to start the installation.
 
@@ -64,7 +64,7 @@ Usage
   
       E.Click button ”NEXT” to Alignment image step.
 
-      <div align=center><img src='./images/LoadAlignmentImages.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/LoadAlignmentImages.png' width =60%, height=60%></div>
   
   
     2)Alignment image
@@ -74,7 +74,7 @@ Usage
       B.Click button “ALIGNMENTIMAGE” to alignment microscope according to landmarks.
   
       C.Click button ”NEXT” to Auto refine step.
-      <div align=center><img src='./images/AlignmentImages.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/AlignmentImages.png' width =60%, height=60%></div>
   
   
     3)Auto refine
@@ -87,7 +87,7 @@ Usage
       
       D.Click button ”NEXT” to Expose alignment result step.
 
-      <div align=center><img src='./images/Auto-Refine.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/Auto-Refine.png' width =60%, height=60%></div>
   
   
     4)Expose alignment result
@@ -96,14 +96,14 @@ Usage
   
       B.In this step, microscope image after alignment will be saved to the path of the microscope image and named as “microscope image name_tissue_image.tif”.
 
-      <div align=center><img src='./images/ExposeAlignment.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/ExposeAlignment.png' width =60%, height=60%></div>
 
   (2)Output
     The output of this step is the image of the microscope image after alignbment. 
     
     The image will be named as “microscope image name_tissue_image.tif” and saved to the path of the microscope image.
 
-    <div align=center><img src='./images/AlignmentResult.png' width =60%, height=60%></div>
+<div align=center><img src='./images/AlignmentResult.png' width =60%, height=60%></div>
   
 
 **3.Manual alignment of DynaBlot image with fiducial frame**:
@@ -121,7 +121,7 @@ Usage
   
       D.Click button ”NEXT” to Select points step.
 
-      <div align=center><img src='./images/LoadFiducialImage.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/LoadFiducialImage.png' width =60%, height=60%></div>
   
 
     2)Select points
@@ -132,7 +132,7 @@ Usage
   
       C.Click button ”NEXT” to Adjust image step.
 
-      <div align=center><img src='./images/SelectPoints.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/SelectPoints.png' width =60%, height=60%></div>
   
 
     3)Adjust image
@@ -147,7 +147,7 @@ Usage
   
       E.Click button ”NEXT” to Detect tissue area step.
   
-      <div align=center><img src='./images/AdjustImage.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/AdjustImage.png' width =60%, height=60%></div>
 
       
     4)Detect tissue area
@@ -172,9 +172,9 @@ Usage
     
       G.Click button ”NEXT” to Expose json step.
 
-      <div align=center><img src='./images/ChooseTissueDetectionImage.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/ChooseTissueDetectionImage.png' width =40%, height=40%></div>
 
-      <div align=center><img src='./images/TissueDetection.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/TissueDetection.png' width =60%, height=60%></div>
     
 
     5)Expose json
@@ -185,7 +185,7 @@ Usage
   
       C.The adjusted image will be saved in the same path of json file.If you have aligned DynaBlot image and microscope image, the adjusted DynaBlot image will be named “DynaBlot image name_dynaimage.tif”, else the adjusted image will be named “Image name_tissue_image.tif”.
 
-      <div align=center><img src='./images/ExposeAdjustResult.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/ExposeAdjustResult.png' width =60%, height=60%></div>
 
   (2)Output:
     The json file willed be named “Image name_alignment.json” and saved in path selected.
@@ -194,11 +194,11 @@ Usage
     
     If you have aligned DynaBlot image and microscope image, the adjusted DynaBlot image will be named “DynaBlot image name_dynaimage.tif”.
 
-    <div align=center><img src='./images/AdjustResult1.png' width =60%, height=60%></div>
+<div align=center><img src='./images/AdjustResult1.png' width =60%, height=60%></div>
     
     Else the adjusted image will be named “Image name_tissue_image.tif”.
 
-    <div align=center><img src='./images/AdjustResult2.png' width =60%, height=60%></div>
+<div align=center><img src='./images/AdjustResult2.png' width =60%, height=60%></div>
 
 
 
