@@ -37,7 +37,9 @@ Double click the exe shown in figure to start the installation.
 
 The operation of DynamicST Assist consists of three parts, start software, DynaBlot image and microscope image alignment and fiducial alignment and issue detection.
 
-Current step and completed steps will be displayed in STEPS. And currently available operations will be displayed in tools.
+Current step and completed steps will be displayed in STEPS. 
+
+And currently available operations will be displayed in TOOLS.
 
 During the operation, you can  zoom the image by scroll the mouse wheel to, or drag the image by pressing the right mouse button.
 
