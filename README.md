@@ -4,7 +4,7 @@ DynamicST Assist
 
 # Introduction
 
-<div align=center><img src='./images/exe3.png' width =40%, height=40%></div>
+<div align=center><img src='./images/exe.png' width =40%, height=40%></div>
 
 DynamicST Assist is an interactive software that guides users in manually identifying fiducials in DynaSpatial image, selecting spots under tissue, and aligning DynaBlot images with microscope images. 
 
