@@ -160,6 +160,8 @@ TOOLS: Display the coordinate of points and clean up the records of selected poi
   
 3. Click button ”NEXT” to Adjust Image step.
 
+   <div align=center><img src='./images/points.png' width =40%, height=40%></div>
+
   <div align=center><img src='./images/SelectPoints.png' width =80%, height=80%></div>
   
 
