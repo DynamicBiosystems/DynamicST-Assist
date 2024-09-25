@@ -3,21 +3,21 @@ Introduction
 
 
   <div align=center><img src='./images/exe2.png' width =40%, height=40%></div>
-  DynamicST Assist is an interactive software that guides users in manually identifying fiducials in DynaSpatial images, selecting spots under tissue, and aligning DynaBlot images with microscope images. 
+DynamicST Assist is an interactive software that guides users in manually identifying fiducials in DynaSpatial images, selecting spots under tissue, and aligning DynaBlot images with microscope images. 
 
-  This software includes two functions: DynaBlot image and microscope image Alignment, fiducial alignment and tissue detection.
+This software includes two functions: DynaBlot image and microscope image Alignment, fiducial alignment and tissue detection.
 
-  DynaBlot image and microscope image Alignment is used to align microscope image with DynaBlot image.
+DynaBlot image and microscope image Alignment is used to align microscope image with DynaBlot image.
 
-  In this function,the following files are required：
+In this function,the following files are required：
 
     1.DynaBlot image
 
     2.Microscope image
 
-  Fiducial alignment and tissue detection is used to adjust DynaBlot image and detect tissue area to obtain the location information of each spot and whether it is covered by tissue area.
+Fiducial alignment and tissue detection is used to adjust DynaBlot image and detect tissue area to obtain the location information of each spot and whether it is covered by tissue area.
 
-  In this function, image with fiducial frame is required.
+In this function, image with fiducial frame is required.
 
 Installation
 ---
@@ -30,11 +30,11 @@ Double click the exe shown in figure to start the installation.
 Usage
 ---
 
-  The operation of DynamicST Assist consists of three parts, start software, DynaBlot image and microscope image alignment and fiducial alignment and issue detection.
+    The operation of DynamicST Assist consists of three parts, start software, DynaBlot image and microscope image alignment and fiducial alignment and issue detection.
 
-  Current step and completed steps will be displayed in STEPS. And currently available operations will be displayed in tools.
+    Current step and completed steps will be displayed in STEPS. And currently available operations will be displayed in tools.
 
-  During the operation, you can  zoom the image by scroll the mouse wheel to, or drag the image by pressing the right mouse button.
+    During the operation, you can  zoom the image by scroll the mouse wheel to, or drag the image by pressing the right mouse button.
 
 **1.Start software**:
 
