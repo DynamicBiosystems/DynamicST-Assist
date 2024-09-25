@@ -2,7 +2,7 @@ Introduction
 ---
 
 
-  <div align=center><img src='./images/exe.png' width =60%, height=60%></div>
+  <div align=center><img src='./images/exe2.png' width =40%, height=40%></div>
   DynamicST Assist is an interactive software that guides users in manually identifying fiducials in DynaSpatial images, selecting spots under tissue, and aligning DynaBlot images with microscope images. 
 
   This software includes two functions: DynaBlot image and microscope image Alignment, fiducial alignment and tissue detection.
@@ -176,7 +176,7 @@ In this part, you can adjust DynaBlot image and detect tissue area.
     
     G.Click button ”NEXT” to Expose json step.
 
-  <div align=center><img src='./images/ChooseTissueDetectionImage.png' width =40%, height=40%></div>
+  <div align=center><img src='./images/ChooseTissueDetectionImage.png' width =20%, height=20%></div>
 
   <div align=center><img src='./images/TissueDetection.png' width =60%, height=60%></div>
     
