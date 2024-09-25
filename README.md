@@ -200,6 +200,9 @@ In this part, you can adjust DynaBlot image and detect tissue area.
 
 The json file willed be named “Image name_alignment.json” and saved in path selected.
 
+The json file displays the information of each spot as shown in the figure, including the coordinate of the spot on the adjust image, the spot diameter, the row and column coordinate of the spot, whether the spot is covered by tissue, and the barcode of the spot. The coordinate of spots correspond to adjusted image.
+<div align=center><img src='./images/JsonFile.png' width =60%, height=60%></div>
+
 The adjusted image will be saved in the same path of json file.
 
 If you have aligned DynaBlot image and microscope image, the adjusted DynaBlot image will be named “DynaBlot image name_dynaimage.tif”.
