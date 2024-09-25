@@ -110,7 +110,7 @@ The output of this step is the image of the microscope image after alignbment.
     
 The image will be named as “microscope image name_tissue_image.tif” and saved to the path of the microscope image.
 
-<div align=center><img src='./images/AlignmentResult.png' width =60%, height=60%></div>
+<div align=center><img src='./images/AlignmentResult.png' width =30%, height=30%></div>
   
 
 ## Manual alignment of DynaBlot image with fiducial frame:
@@ -180,7 +180,7 @@ In this part, you can adjust DynaBlot image and detect tissue area.
     
 7. Click button ”NEXT” to Expose json step.
 
-  <div align=center><img src='./images/ChooseTissueDetectionImage.png' width =20%, height=20%></div>
+  <div align=center><img src='./images/ChooseTissueDetectionImage.png' width =30%, height=30%></div>
 
   <div align=center><img src='./images/TissueDetection.png' width =60%, height=60%></div>
     
@@ -207,7 +207,7 @@ If you have aligned DynaBlot image and microscope image, the adjusted DynaBlot i
     
 Else the adjusted image will be named “Image name_tissue_image.tif”.
 
-<div align=center><img src='./images/AdjustResult2.png' width =60%, height=60%></div>
+<div align=center><img src='./images/AdjustResult2.png' width =40%, height=40%></div>
 
 
 
