@@ -200,11 +200,11 @@ TOOLS: Set parameters of tissue area detection algorithm, detect tissue area and
   
 5. Modify Transparency slider can modify the transparency of spots.
   
-6. If the result of automatic detection is not accurate, you can fine tune the tissue area through the brush function.
+6. If the result of automatic detection is not accurate, you can fine tune the tissue area through the brush function.There are two ways to fine tune spot. You can operate a single spot by clicking the left mouse button. If you hold down the left mouse button and drag the mouse, you can activate the brush function to perform batch operations on the spot
   
-    a. Select “SelectSpot” to add spots covered by tissue on the image through the brush function.
+    a. Select “SelectSpot” to add spots covered by tissue on the image.
     
-    b. Select “DeleteSpot” to delete spots covered by tissue on the image through the brush function.
+    b. Select “DeleteSpot” to delete spots covered by tissue on the image.
     
     c. Modify Width slider to modify width of brush.
     
