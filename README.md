@@ -69,8 +69,7 @@ TOOLS: Replace the DynaBlot image and replace the microscope image
   
 3. Click the “REPLACEIMAGE” button on the top of “TOOLS” to replace thr DynaBlot image, which will be flipped horizontally.
   
-4. Click the “REPLACEIMAGE” button on the bottom of “TOOLS” to replace the
-5.  microscope image.
+4. Click the “REPLACEIMAGE” button on the bottom of “TOOLS” to replace the microscope image.
   
 6. Click the ”NEXT” button to the Alignment Image step.
 
