@@ -6,7 +6,7 @@ DynamicST Assist
 
 <div align=center><img src='./images/dynamicstassist-logo.png' width =80%, height=80%></div>
 
-DynamicST Assist is an interactive software designed to help users manually identify fiducials in DynaSpatial images, select spots under tissue, and align DynaBlot images with microscope images.
+DynamicST Assist is an interactive software designed to help users manually identify fiducial points in DynaSpatial images, select spots under tissue, and align DynaBlot images with microscope images.
 
 In this function, the following files are required：
 
@@ -23,9 +23,9 @@ In this function, a DynaSpatial image with a fiducial frame is required.
 
 <div align=center><img src='./images/setup.png' width =40%, height=40%></div>
 
-Double click the exe shown in figure to start the installation.
+Double click the exe shown in the figure to start the installation.
 
-This software is designed to run exclusively on the Windows operating system. It is not compatible with macOS or Linux.
+This software is designed to run exclusively on the Windows operating system,  and is not compatible with macOS or Linux.
 
 
 # Usage
@@ -39,29 +39,29 @@ The operation of DynamicST Assist consists of three parts:
 
 3. Fiducial Alignment and Tissue Detection.
 
-During the operation, you can zoom the image by scrolling the mouse wheel, or drag the image by pressing the right mouse button.
+During the operation, you can zoom the image by scrolling the mouse wheel or drag the image by pressing the right mouse button.
 
 ## Start software
 
 In this part, you have two choices.
 
-1. If you only have a DynaSpatial image, the "FIDUCIAL ALIGNMENT AND TISSUE DETECTION" button and the software will go to the Fiducial Alignment and Tissue Detection part. Then you can adjust DynaSpatial image and detect the tissue area.
+1. If you only have a DynaSpatial image, click the "FIDUCIAL ALIGNMENT AND TISSUE DETECTION" button and the software will go to the Fiducial Alignment and Tissue Detection part. Then you can adjust the DynaSpatial image and detect the tissue area.
 
-2. If you both have a DynaBlot image and a microscope image of the same tissue and need to align the two images, the "DYNABLOT IMAGE - MICROSCOPE IMAGE ALIGNMENT" button and the software will go to the DynaBlot Image and Microscope Image Alignment part. Then you can align the DynaBlot image with the microscope image. After alignment, please continue to the Fiducial Alignment and Tissue Detection part.
+2. If you both have a DynaBlot image and a microscope image of the same tissue and need to align the two images, click the "DYNABLOT IMAGE - MICROSCOPE IMAGE ALIGNMENT" button and the software will go to the DynaBlot Image and Microscope Image Alignment part. Then you can align the DynaBlot image with the microscope image. After alignment, please continue to the Fiducial Alignment and Tissue Detection part.
 
   <div align=center><img src='./images/start.png' width =60%, height=60%></div>
 
 
 ## DynaBlot Image - Microscope Image Alignment
 
-In this part, you can align DynaBlot image and microscope image. 
+In this part, you can align the DynaBlot image and the microscope image.
 
 ### Operation process
 
 #### Load Images
 STEPS: Display the current step and completed steps.
 
-TOOLS: Replace the DynaBlot image and replace the microscope image
+TOOLS: Replace the DynaBlot image or the microscope image
 
 1. Click the “LOADIMAGE” button on the left to load the DynaBlot image, which will be flipped horizontally.
   
@@ -71,7 +71,7 @@ TOOLS: Replace the DynaBlot image and replace the microscope image
   
 4. Click the “REPLACEIMAGE” button on the bottom of “TOOLS” to replace the microscope image.
   
-6. Click the ”NEXT” button to the Alignment Image step.
+5. Click the ”NEXT” button to the Alignment Image step.
 
   <div align=center><img src='./images/LoadAlignmentImages.png' width =80%, height=80%></div>
   
@@ -103,16 +103,16 @@ TOOLS: Automatically refine the alignment and modify the image transparency.
       
 3. If the fine-tuning result is unsatisfactory, you can click it for several times until you are satisfied.
       
-4. Click the ”NEXT” button to the Expose Alignment Result step.
+4. Click the ”NEXT” button to the Export Alignment Result step.
 
   <div align=center><img src='./images/Auto-Refine.png' width =80%, height=80%></div>
   
   
-#### Expose Alignment Result
+#### Export Alignment Result
 
 STEPS: Display the current step and completed steps.
 
-1. Click the ”CONTINUE TO MANUAL FIDUCIAL ALIGNMENT” button to skip to Fiducial Alignment and Tissue Detection.
+1. 1.Click the ”CONTINUE TO MANUAL FIDUCIAL ALIGNMENT” button to skip to Fiducial Alignment and Tissue Detection.
   
 2. In this step, the microscope image after alignment will be saved to the original path and named as “microscope image name_tissue_image.tif”.
 
@@ -120,9 +120,9 @@ STEPS: Display the current step and completed steps.
 
 ### Output
   
-The output of this step is the image of the microscope image after alignment. 
-    
-The image will be named as “microscope image name_tissue_image.tif” and saved to the path of the microscope image.
+The output of this step is the microscope image after alignment, which retains the same resolution as the microscope image .
+
+It will be named as “microscope image name_tissue_image.tif” and saved to the path of the microscope image.
 
 <div align=center><img src='./images/AlignmentResult.png' width =30%, height=30%></div>
   
@@ -160,7 +160,7 @@ TOOLS: Display the coordinate of points and clean up the records of selected poi
   
 2. Clean up the records of the selected points by clicking the “CLEANPOINTS” button.
   
-3. Click the ”NEXT” button to Adjust Image step.
+3. 3.Click the ”NEXT” button to the Adjust Image step.
 
    <div align=center><img src='./images/points.png' width =40%, height=40%></div>
 
@@ -171,7 +171,7 @@ TOOLS: Display the coordinate of points and clean up the records of selected poi
 
 STEPS: Display the current step and completed steps.
 
-TOOLS: Manually fine tune position of the spoints and ADJUST the DynaSpatial image.
+TOOLS: Manually fine tune position of the points and ADJUST the DynaSpatial image.
 
 1. If the coordinates of the points are not accurate, you can select the point that needs adjustment and fine-tune its coordinates in the x and y directions using the spinbox.
   
@@ -179,8 +179,8 @@ TOOLS: Manually fine tune position of the spoints and ADJUST the DynaSpatial ima
   
 3. The spots corresponding to the DynaSpatial image will be displayed on the image.
   
-4. In this step, if you have aligned the DynaBlot image eith the microscope image, the microscope image will be adjusted in the same way as DynaBlot image and replace the “microscope image name_tissue_image.tif”.
-  
+4. In this step, if you have aligned the DynaBlot image with the microscope image, the microscope image will be adjusted in the same way as the DynaBlot image and replace the “microscope image name_tissue_image.tif”.
+   
 5. Click the ”NEXT” button to the Detect Tissue Area step.
   
   <div align=center><img src='./images/AdjustImage.png' width =80%, height=80%></div>
@@ -190,15 +190,15 @@ TOOLS: Manually fine tune position of the spoints and ADJUST the DynaSpatial ima
 
 STEPS: Display the current step and completed steps.
 
-TOOLS: Set parameters of tissue area detection algorithm, detect tissue area and manually fine tune the tissue area.
+TOOLS: Set parameters of tissue area detection algorithm, detect and manually fine tune the tissue area.
 
 1. If you have aligned the DynaBlot image with the microscope image, any of them can be selected for tissue area detection.
   
-2. Use the Sensitive slider to set parameter of tissue area detection algorithm.
+2. Use the Sensitive slider to set the parameter of tissue area detection algorithm.
   
 3. Choose the image channel of tissue area detection algorithm.
   
-4. Click the “TISSUEDETECTION” button to automatically detect tissue area.
+4. Click the “TISSUEDETECTION” button to automatically detect the tissue area.
   
 5. Use the Transparency slider to modify the transparency of spots.
   
@@ -208,36 +208,47 @@ TOOLS: Set parameters of tissue area detection algorithm, detect tissue area and
     
     b. Select the “DeleteSpot” to delete spots covered by tissue on the image.
     
-    c. Use the Width slider to modify the width of brush.
+    c. Use the Width slider to modify the width of the brush.
     
-7. Click the ”NEXT” button to Expose Json step.
+7. Click the ”NEXT” button to the Export JSON step.
 
   <div align=center><img src='./images/ChooseTissueDetectionImage.png' width =30%, height=30%></div>
 
   <div align=center><img src='./images/TissueDetection.png' width =80%, height=80%></div>
     
 
-#### Expose Json
+#### Export Json
 
 STEPS: Display the current step and completed steps.
 
-TOOLS: Expose the json file and adjusted image.
+TOOLS: Export the JSON file and the adjusted image.
 
-1. Click the “EXPOSEJSON” button to expose the adjusted image and json file.
+1. Click the “EXPORTJSON” button to EXPORT the adjusted image and the JSON file. 
   
-2. The json file willed be named “DynaSpatial image name_alignment.json”。
+2. The JSON file will be named as “DynaSpatial image name_alignment.JSON”。
   
-3. The adjusted image will be saved in the same path of json file.If you have aligned the DynaBlot image with the microscope image, the adjusted DynaBlot image will be named “DynaSpatial image name_dynaimage.tif”. Otherwise the adjusted image will be named “Image name_tissue_image.tif”.
+3. The adjusted image will be saved in the same path of JSON file，it will retain the same resolution as the DynaSpatial image.If you have aligned the DynaBlot image with the microscope image, the adjusted DynaBlot image will be named as “DynaSpatial image name_dynaimage.tif”. Otherwise the adjusted image will be named as“Image name_tissue_image.tif”.
 
   <div align=center><img src='./images/ExposeAdjustResult.png' width =80%, height=80%></div>
 
 ### Output
 
-The json file willed be named “DynaSpatial image name_alignment.json” and saved in the selected path.
+The JSON file willed be named as“DynaSpatial image name_alignment.JSON” and saved in the selected path.
 
-The JSON file contains detailed information for each spot, as shown in the figure. This includes the spot's coordinates on the adjusted image, the diameter, the row and column number, whether it is covered by tissue, and the barcodes.
+The JSON file contains the following information:
+
+1.  spots: This includes the spot's coordinates on the adjusted image, the diameter, the row and column number, whether it is covered by tissue, and the barcodes.
+
+2.  points: Coordinates of reference points.
+
+3.  scale: The scale of the microscope image to the DynaBlot image. If you have not aligned the DynaBlot image with the microscope image, The scale parameter will be 1
+
+4.  chiptype: The type of the chip.
 
 <div align=center><img src='./images/JsonFile.png' width =60%, height=60%></div>
+
+
+<div align=center><img src='./images/JsonFile2.png' width =60%, height=60%></div>
 
 
 <div align=center><img src='./images/AdjustResult1.png' width =60%, height=60%></div>
